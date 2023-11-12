@@ -10,7 +10,7 @@ connectToDatabase(); //Database-connection-intialise
 // Middlewares:
 app.use(express.json());
 app.use(cors({
-    origin: 'https://expensetracker-we50.onrender.com/', // Replace with your frontend origin
+    origin: 'https://expensetracker-we50.onrender.com', // Replace with your frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'auth-token'],
 }));
